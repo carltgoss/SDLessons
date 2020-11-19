@@ -12,6 +12,7 @@ namespace _01_TypesAndVariables
             bool IsDeclared;
 
             IsDeclared = true;
+            Console.WriteLine("\\");
         }
 
         [TestMethod]

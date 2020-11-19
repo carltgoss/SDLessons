@@ -70,7 +70,7 @@ namespace _04_Loops
             }
 
             string[] instructors = { "Andrew", "Michael", "Josh", "Amanda" };
-            for (int i = 0; i <instructors.Length; i++)
+            for (int i = 0; i < instructors.Length; i++)
             {
                 Console.WriteLine($"{instructors[i]} welcomes you!");
             }

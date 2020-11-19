@@ -105,5 +105,26 @@ namespace _05_Classes
             }
             Console.WriteLine(word.Length);
         }
+
+        [TestMethod]
+        public void PersonTest()
+        {
+            Person carl = new Person("Carl", "Goss", new DateTime(1992, 5, 1));
+            Vehicle car = new Vehicle(VehicleType.Car, "Mazda6");
+            carl.Transport = car;
+
+            Console.WriteLine(carl.FullName);
+            Console.WriteLine(carl.Age);
+            Console.WriteLine(carl.Transport.TypeOfVehicle);
+        }
+
+        [TestMethod]
+        public void UserTest()
+        {
+            DateTime birthdate = new DateTime(1992, 5, 1);
+            User user = new User(1, "Carl", "Goss", birthdate);
+
+            Console.WriteLine(user.GetAgeInYears);
+        }
     }
 }

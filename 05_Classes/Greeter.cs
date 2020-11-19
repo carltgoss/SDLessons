@@ -13,6 +13,7 @@ namespace _05_Classes
         public void SayHello(string name)
         {
             Console.WriteLine($"Hello, {name}!");
+            Console.WriteLine("\\");
         }
 
         public void SaySomething(string speech)
