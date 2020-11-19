@@ -30,5 +30,8 @@ namespace _11_RestaurantRater.Models
         [ForeignKey(nameof(Restaurant))]
         public int RestaurantId { get; set; }
         public virtual Restaurant Restaurant { get; set; }
+
+        public string Test { get; set; }
     }
+
 }
